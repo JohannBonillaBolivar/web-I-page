@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/animations.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/components.css" />
+    <script defer src="/controllers/nav-controller.js"></script>
+    <script defer src="/controllers/opacity-controller.js"></script>
+    <link
+      rel="shortcut icon"
+      href="/assets/iconfinder-connectedglobe-4417105_116615.ico"
+      type="image/x-icon"
+    />
+    <title>Transparencias y Degradados</title>
+  </head>
+  <body>
+    <header class="header">
+      <picture class="banner">
+        <!-- <span class="banner__title">La pagina pa el profe</span> -->
+        <img
+          class="banner__img"
+          src="/assets/banner-header.webp"
+          alt="banner web anime"
+        />
+      </picture>
+    </header>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <a class="nav__link" href="/">Inicio</a>
+        <a class="nav__link" href="/pages/evolucion.html">Evolución</a>
+        <a class="nav__link" href="/pages/amazon.html">Amazon</a>
+        <a class="nav__link" href="/pages/disenos.html">Diseños</a>
+        <a class="nav__link" href="/pages/vinetas.html">Viñetas</a>
+        <a class="nav__link" href="/pages/columnas.html">Columnas</a>
+        <a class="nav__link" href="/pages/videos.html">Videos</a>
+        <a class="nav__link" href="/pages/audios.html">Audio</a>
+        <a class="nav__link" href="/pages/tablas.html">Tablas</a>
+        <a class="nav__link" href="/pages/transparencias.html"
+          >Transparencias</a
+        >
+        <a class="nav__link" href="/pages/formulario.html">Formulario</a>
+        <a class="nav__link" href="/pages/svg.html">SVG</a>
+      </ul>
+      <button class="nav__button" id="btn-toggle-nav">Menu</button>
+    </nav>
+    <div class="nav__collapse" id="nav-menu">
+      <ul class="nav__ul nav__ul-collapse">
+        <a class="nav__link nav__link-collapse" href="/">Inicio</a>
+        <a class="nav__link nav__link-collapse" href="/pages/evolucion.html">
+          Evolución
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/amazon.html">
+          Amazon
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/disenos.html">
+          Diseños
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/vinetas.html">
+          Viñetas
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/columnas.html">
+          Columnas
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/videos.html">
+          Videos
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/audios.html">
+          Audio
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/tablas.html">
+          Tablas
+        </a>
+        <a
+          class="nav__link nav__link-collapse"
+          href="/pages/transparencias.html"
+        >
+          Transparencias
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/animaciones.html">
+          Animaciones
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/svg.html"> SVG </a>
+      </ul>
+    </div>
+
+    <main class="container">
+      <h1 class="container__title">Transparencias y Degradados</h1>
+      <center>
+        <h2 class="subtitle" id="text-change">Transparencia al 100%</h2>
+      </center>
+      <picture class="picture">
+        <img
+          class="img img--square"
+          id="opacity-img"
+          src="/assets/images/profile_photo.webp"
+          alt=""
+        />
+        <div>
+          <button class="btn btn--rounded" id="opacity-down">-</button>
+          <button class="btn btn--rounded" id="opacity-up">+</button>
+        </div>
+      </picture>
+      <center>
+        <h2 class="subtitle" id="text-change">Degradados</h2>
+      </center>
+      <section class="section">
+        <div class="deg deg--red-yellow"></div>
+        <div class="deg deg--green-blue"></div>
+        <div class="deg deg--blue-red"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__section">
+        <h3 class="footer__h3">Contacto</h3>
+        <ul class="footer__items">
+          <a
+            class="footer__item"
+            href="mailto:johannbb0508@gmail.com"
+            target="_blank"
+            >johannbb0508@gmail.com</a
+          >
+          <a
+            class="footer__item"
+            href="https://wa.me/+573118729260"
+            target="_blank"
+            >+57 3118729260</a
+          >
+        </ul>
+      </section>
+      <section class="footer__section">
+        <h3 class="footer__h3">Redes Sociales</h3>
+        <ul class="footer__items">
+          <a
+            class="footer__item"
+            href="https://www.instagram.com/johannbbp?igsh=MWM5MnFsNnd1aHhkbQ=="
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            class="footer__item"
+            href="https://www.facebook.com/share/p9DQCEv38SSbZeAX/?mibextid=qi2Omg"
+            target="_blank"
+            >Facebook</a
+          >
+          <a
+            class="footer__item"
+            href="https://github.com/JohannBonillaBolivar"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            class="footer__item"
+            href="https://co.linkedin.com/in/johann-bonilla-bolivar"
+            target="_blank"
+            >Linkedin</a
+          >
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

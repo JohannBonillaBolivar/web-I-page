@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/animations.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/components.css" />
+    <script defer src="/controllers/nav-controller.js"></script>
+    <link
+      rel="shortcut icon"
+      href="/assets/iconfinder-connectedglobe-4417105_116615.ico"
+      type="image/x-icon"
+    />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <header class="header">
+      <picture class="banner">
+        <!-- <span class="banner__title">La pagina pa el profe</span> -->
+        <img
+          class="banner__img"
+          src="/assets/banner-header.webp"
+          alt="banner web anime"
+        />
+      </picture>
+    </header>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <a class="nav__link" href="/">Inicio</a>
+        <a class="nav__link" href="/pages/evolucion.html">Evolución</a>
+        <a class="nav__link" href="/pages/amazon.html">Amazon</a>
+        <a class="nav__link" href="/pages/disenos.html">Diseños</a>
+        <a class="nav__link" href="/pages/vinetas.html">Viñetas</a>
+        <a class="nav__link" href="/pages/columnas.html">Columnas</a>
+        <a class="nav__link" href="/pages/videos.html">Videos</a>
+        <a class="nav__link" href="/pages/audios.html">Audio</a>
+        <a class="nav__link" href="/pages/tablas.html">Tablas</a>
+        <a class="nav__link" href="/pages/transparencias.html"
+          >Transparencias</a
+        >
+        <a class="nav__link" href="/pages/formulario.html">Formulario</a>
+        <a class="nav__link" href="/pages/svg.html">SVG</a>
+      </ul>
+      <button class="nav__button" id="btn-toggle-nav">Menu</button>
+    </nav>
+    <div class="nav__collapse" id="nav-menu">
+      <ul class="nav__ul nav__ul-collapse">
+        <a class="nav__link nav__link-collapse" href="/">Inicio</a>
+        <a class="nav__link nav__link-collapse" href="/pages/evolucion.html">
+          Evolución
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/amazon.html">
+          Amazon
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/disenos.html">
+          Diseños
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/vinetas.html">
+          Viñetas
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/columnas.html">
+          Columnas
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/videos.html">
+          Videos
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/audios.html">
+          Audio
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/tablas.html">
+          Tablas
+        </a>
+        <a
+          class="nav__link nav__link-collapse"
+          href="/pages/transparencias.html"
+        >
+          Transparencias
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/animaciones.html">
+          Animaciones
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/svg.html"> SVG </a>
+      </ul>
+    </div>
+
+    <main class="container">
+      <h1 class="container__title">Tablas</h1>
+      <center><h2 class="subtitle">Tabla sin Bordes</h2></center>
+      <table>
+        <tr>
+          <td>Hola</td>
+          <td>Coneja</td>
+        </tr>
+      </table>
+      <center><h2 class="subtitle">Tabla con Bordes</h2></center>
+      <table border="5">
+        <tr>
+          <th>Hombre</th>
+          <th>Mujer</th>
+        </tr>
+        <tr>
+          <td>stiv</td>
+          <td>Camilo Otoya</td>
+        </tr>
+        <tr>
+          <td>Sammy</td>
+          <td>angel david</td>
+        </tr>
+      </table>
+      <center><h2 class="subtitle">Tabla Centrada</h2></center>
+      <table border="10" align="center" bordercolor="orange">
+        <tr>
+          <th>Impares</th>
+          <th>Pares</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>8</td>
+        </tr>
+      </table>
+
+      <center>
+        <h2 class="subtitle" align="center">Bandera de colombia</h2>
+      </center>
+      <table
+        border="1"
+        align="center"
+        bordercolor="black"
+        width="300"
+        height="200"
+      >
+        <tr>
+          <td bgcolor="Yellow" height="100"></td>
+        </tr>
+        <tr>
+          <td bgcolor="Blue" height="50"></td>
+        </tr>
+        <tr>
+          <td bgcolor="Red" height="50"></td>
+        </tr>
+      </table>
+
+      <center><h2 class="subtitle">Espacio entre celdas</h2></center>
+      <table
+        border="5"
+        align="center"
+        cellspacing="20"
+        cellpadding="10"
+        bordercolor="white"
+      >
+        <tr>
+          <th colspan="5">Espacio Entre Celdas</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__section">
+        <h3 class="footer__h3">Contacto</h3>
+        <ul class="footer__items">
+          <a
+            class="footer__item"
+            href="mailto:johannbb0508@gmail.com"
+            target="_blank"
+            >johannbb0508@gmail.com</a
+          >
+          <a
+            class="footer__item"
+            href="https://wa.me/+573118729260"
+            target="_blank"
+            >+57 3118729260</a
+          >
+        </ul>
+      </section>
+      <section class="footer__section">
+        <h3 class="footer__h3">Redes Sociales</h3>
+        <ul class="footer__items">
+          <a
+            class="footer__item"
+            href="https://www.instagram.com/johannbbp?igsh=MWM5MnFsNnd1aHhkbQ=="
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            class="footer__item"
+            href="https://www.facebook.com/share/p9DQCEv38SSbZeAX/?mibextid=qi2Omg"
+            target="_blank"
+            >Facebook</a
+          >
+          <a
+            class="footer__item"
+            href="https://github.com/JohannBonillaBolivar"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            class="footer__item"
+            href="https://co.linkedin.com/in/johann-bonilla-bolivar"
+            target="_blank"
+            >Linkedin</a
+          >
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

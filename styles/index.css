@@ -1,0 +1,153 @@
+/* ABOUT */
+
+li {
+	list-style: none;
+}
+
+.subtitle__section {
+	color: #303030;
+	margin-top: 70px;
+	width: 100%;
+	text-align: start;
+}
+
+.about {
+	display: flex;
+	max-width: 1000px;
+	align-items: center;
+	gap: 20px;
+	text-wrap: pretty;
+}
+
+.about__description {
+	font-size: 1.1rem;
+	width: 60%;
+}
+
+.about__photo {
+	width: 40%;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.skills {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.skills__list {
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px 30px;
+}
+
+.skill {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	gap: 5px;
+	aspect-ratio: 1 / 1;
+	background-color: #cfcfcf;
+	border-radius: 10px;
+	/* box-shadow: 0 0  #303040; */
+	user-select: none;
+}
+
+.skill__icon {
+	height: 25px;
+}
+
+.skill__name {
+	margin: 0;
+	font-size: .72rem;
+	color: #303030;
+	font-weight: 500;
+}
+
+/* PROJECTS */
+
+.projects {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.project {
+	margin-top: 30px;
+}
+
+.project:nth-child(2) {
+	margin-top: 0;
+}
+
+.project__title {
+	margin: 0;
+}
+
+.project__description {
+	margin: 10px 0;
+}
+
+.project__links {
+	display: flex;
+	gap: 20px;
+}
+
+.project__link {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 100px;
+	text-decoration: none;
+}
+
+.project__link span {
+	z-index: 10;
+	color: #ff477f;
+	transition: color .3s;
+}
+
+.link__animation {
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #ff477f;
+	z-index: -10;
+	border-radius: 4px;
+}
+
+.project__link:hover .link__animation {
+	animation: hover-link .35s forwards;
+}
+
+.project__link:not(:hover) .link__animation {
+	animation: no-hover-link .35s forwards;
+}
+
+.project__link:hover span {
+	color: #f0f0f0;
+}
+
+@media (max-width: 1250px) {
+	.about {
+		flex-direction: column-reverse;
+	}
+
+	.about__description {
+		width: 100%;
+	}
+
+	.about__photo {
+		width: 60%;
+	}
+}

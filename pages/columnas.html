@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/animations.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/components.css" />
+    <script defer src="/controllers/nav-controller.js"></script>
+    <link
+      rel="shortcut icon"
+      href="/assets/iconfinder-connectedglobe-4417105_116615.ico"
+      type="image/x-icon"
+    />
+    <title>Columnas de Texto</title>
+  </head>
+  <body>
+    <header class="header">
+      <picture class="banner">
+        <!-- <span class="banner__title">La pagina pa el profe</span> -->
+        <img
+          class="banner__img"
+          src="/assets/banner-header.webp"
+          alt="banner web anime"
+        />
+      </picture>
+    </header>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <a class="nav__link" href="/">Inicio</a>
+        <a class="nav__link" href="/pages/evolucion.html">Evolución</a>
+        <a class="nav__link" href="/pages/amazon.html">Amazon</a>
+        <a class="nav__link" href="/pages/disenos.html">Diseños</a>
+        <a class="nav__link" href="/pages/vinetas.html">Viñetas</a>
+        <a class="nav__link" href="/pages/columnas.html">Columnas</a>
+        <a class="nav__link" href="/pages/videos.html">Videos</a>
+        <a class="nav__link" href="/pages/audios.html">Audio</a>
+        <a class="nav__link" href="/pages/tablas.html">Tablas</a>
+        <a class="nav__link" href="/pages/transparencias.html"
+          >Transparencias</a
+        >
+        <a class="nav__link" href="/pages/formulario.html">Formulario</a>
+        <a class="nav__link" href="/pages/svg.html">SVG</a>
+      </ul>
+      <button class="nav__button" id="btn-toggle-nav">Menu</button>
+    </nav>
+    <div class="nav__collapse" id="nav-menu">
+      <ul class="nav__ul nav__ul-collapse">
+        <a class="nav__link nav__link-collapse" href="/">Inicio</a>
+        <a class="nav__link nav__link-collapse" href="/pages/evolucion.html">
+          Evolución
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/amazon.html">
+          Amazon
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/disenos.html">
+          Diseños
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/vinetas.html">
+          Viñetas
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/columnas.html">
+          Columnas
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/videos.html">
+          Videos
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/audios.html">
+          Audio
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/tablas.html">
+          Tablas
+        </a>
+        <a
+          class="nav__link nav__link-collapse"
+          href="/pages/transparencias.html"
+        >
+          Transparencias
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/animaciones.html">
+          Animaciones
+        </a>
+        <a class="nav__link nav__link-collapse" href="/pages/svg.html"> SVG </a>
+      </ul>
+    </div>
+
+    <main class="container">
+      <h1 class="container__title">Evolucion</h1>
+      <h2 id="table1" class="subtitle">Evolucion de los computadores</h2>
+      <table class="table">
+        <thead class="table__head">
+          <tr class="table__row">
+            <td class="table__column">Etiqueta</td>
+            <td class="table__column">Concepto</td>
+            <td class="table__column">Efecto</td>
+          </tr>
+        </thead>
+
+        <tbody class="table__body">
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; B &#8250;...&#8249; /B &#8250;
+            </td>
+            <td class="table__column">Bold Negrita</td>
+            <td class="table__column"><b>La Negrita es muy brincoma</b></td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; I &#8250;...&#8249; /I &#8250;
+            </td>
+            <td class="table__column">Italic Letra Cursiva</td>
+            <td class="table__column"><i>La letra esta torcida</i></td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; SMALL &#8250;...&#8249; /SMALL &#8250;
+            </td>
+            <td class="table__column">Letra Pequeñita</td>
+            <td class="table__column"><small>letra enana :)</small></td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; BIG &#8250;...&#8249; /BIG &#8250;
+            </td>
+            <td class="table__column">Letra Grande</td>
+            <td class="table__column"><big>letra gigante &#8250;:( </big></td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; U &#8250;...&#8249; /U &#8250;
+            </td>
+            <td class="table__column">Underline Letra Subrayada</td>
+            <td class="table__column"><u>letra subrayada</u></td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; SUP &#8250;...&#8249; /SUP &#8250;
+            </td>
+            <td class="table__column">Poner Texto Superíndice</td>
+            <td class="table__column">
+              Y<sup>2</sup> = X <sup>2</sup> + B + C
+            </td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; SUB &#8250;...&#8249; /SUB &#8250;
+            </td>
+            <td class="table__column">Poner Texto Subíndice</td>
+            <td class="table__column">H<sub>2</sub>O</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; S &#8250;...&#8249; /S &#8250;
+            </td>
+            <td class="table__column">Texto Tachado/Prohibido</td>
+            <td class="table__column"><s>No me ves?</s></td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__column table__column--max">
+              &#8249; DEL &#8250;...&#8249; /DEL &#8250;
+            </td>
+            <td class="table__column">Texto Tachado/Prohibido</td>
+            <td class="table__column"><del>No me ves?</del></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="subtitle">Alineamiento</h2>
+
+      <h3 class="subtitle__h3">Parrafo a la derecha</h3>
+      <p class="parraf" align="right">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        luctus faucibus risus, at ultrices velit mollis eget. Suspendisse
+        condimentum eros et ante sodales, sed porta felis consectetur. Donec
+        tempus turpis nulla, sit amet porta sapien efficitur ut. In sed elit
+        quam. Etiam quis diam est. Nulla a diam laoreet, feugiat velit sed,
+        finibus mauris. Curabitur risus elit, pretium porttitor ornare non,
+        elementum eget diam. Nam non rhoncus augue, quis elementum ipsum. Cras
+        rutrum neque non lacinia egestas. Cras urna diam, rhoncus vel elementum
+        a, porttitor in augue. Duis dapibus diam id porttitor malesuada. Aenean
+        non tristique erat. Aliquam malesuada libero sapien, sed pretium diam
+        elementum ut. Morbi egestas hendrerit lorem id mollis. In efficitur
+        libero nec ligula lacinia aliquet. Ut at tincidunt nibh. Donec maximus
+        hendrerit leo, sit amet malesuada nisi. Cras lacinia justo vitae
+        tincidunt molestie. Mauris mauris tellus, ultrices at sodales non,
+        ornare nec risus. Quisque pretium iaculis libero in vestibulum. Quisque
+        eget purus neque. Integer pretium neque sit amet cursus pharetra.
+        Quisque felis ex, euismod eu hendrerit quis, aliquam at sapien. Aliquam
+        erat volutpat. Nullam eget nunc vitae augue facilisis tincidunt quis
+        eget odio. Etiam eu congue dolor. Curabitur eget iaculis justo. Etiam
+        lobortis lacus vel libero semper dapibus. Aliquam erat volutpat. Vivamus
+        laoreet semper dui sit amet facilisis. Nam maximus rutrum vestibulum.
+        Vivamus ultricies interdum egestas. Aenean finibus eros id nisl dapibus,
+        vel faucibus mi vestibulum. Aenean sit amet magna tempus, sagittis
+        mauris eget, sollicitudin enim. Vivamus semper, lorem quis finibus
+        malesuada, orci quam placerat magna, vel scelerisque felis ligula eget
+        sapien. Nunc ullamcorper erat eu rutrum condimentum. Curabitur nec velit
+        in leo auctor porta sit amet vitae felis. Praesent non ipsum eu erat
+        feugiat gravida in eu magna.
+      </p>
+
+      <h3 class="subtitle__h3">Parrafo a la izquierda</h3>
+      <p class="parraf" align="left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        luctus faucibus risus, at ultrices velit mollis eget. Suspendisse
+        condimentum eros et ante sodales, sed porta felis consectetur. Donec
+        tempus turpis nulla, sit amet porta sapien efficitur ut. In sed elit
+        quam. Etiam quis diam est. Nulla a diam laoreet, feugiat velit sed,
+        finibus mauris. Curabitur risus elit, pretium porttitor ornare non,
+        elementum eget diam. Nam non rhoncus augue, quis elementum ipsum. Cras
+        rutrum neque non lacinia egestas. Cras urna diam, rhoncus vel elementum
+        a, porttitor in augue. Duis dapibus diam id porttitor malesuada. Aenean
+        non tristique erat. Aliquam malesuada libero sapien, sed pretium diam
+        elementum ut. Morbi egestas hendrerit lorem id mollis. In efficitur
+        libero nec ligula lacinia aliquet. Ut at tincidunt nibh. Donec maximus
+        hendrerit leo, sit amet malesuada nisi. Cras lacinia justo vitae
+        tincidunt molestie. Mauris mauris tellus, ultrices at sodales non,
+        ornare nec risus. Quisque pretium iaculis libero in vestibulum. Quisque
+        eget purus neque. Integer pretium neque sit amet cursus pharetra.
+        Quisque felis ex, euismod eu hendrerit quis, aliquam at sapien. Aliquam
+        erat volutpat. Nullam eget nunc vitae augue facilisis tincidunt quis
+        eget odio. Etiam eu congue dolor. Curabitur eget iaculis justo. Etiam
+        lobortis lacus vel libero semper dapibus. Aliquam erat volutpat. Vivamus
+        laoreet semper dui sit amet facilisis. Nam maximus rutrum vestibulum.
+        Vivamus ultricies interdum egestas. Aenean finibus eros id nisl dapibus,
+        vel faucibus mi vestibulum. Aenean sit amet magna tempus, sagittis
+        mauris eget, sollicitudin enim. Vivamus semper, lorem quis finibus
+        malesuada, orci quam placerat magna, vel scelerisque felis ligula eget
+        sapien. Nunc ullamcorper erat eu rutrum condimentum. Curabitur nec velit
+        in leo auctor porta sit amet vitae felis. Praesent non ipsum eu erat
+        feugiat gravida in eu magna.
+      </p>
+
+      <h3 class="subtitle__h3">Parrafo Centrado</h3>
+      <p class="parraf" align="center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        luctus faucibus risus, at ultrices velit mollis eget. Suspendisse
+        condimentum eros et ante sodales, sed porta felis consectetur. Donec
+        tempus turpis nulla, sit amet porta sapien efficitur ut. In sed elit
+        quam. Etiam quis diam est. Nulla a diam laoreet, feugiat velit sed,
+        finibus mauris. Curabitur risus elit, pretium porttitor ornare non,
+        elementum eget diam. Nam non rhoncus augue, quis elementum ipsum. Cras
+        rutrum neque non lacinia egestas. Cras urna diam, rhoncus vel elementum
+        a, porttitor in augue. Duis dapibus diam id porttitor malesuada. Aenean
+        non tristique erat. Aliquam malesuada libero sapien, sed pretium diam
+        elementum ut. Morbi egestas hendrerit lorem id mollis. In efficitur
+        libero nec ligula lacinia aliquet. Ut at tincidunt nibh. Donec maximus
+        hendrerit leo, sit amet malesuada nisi. Cras lacinia justo vitae
+        tincidunt molestie. Mauris mauris tellus, ultrices at sodales non,
+        ornare nec risus. Quisque pretium iaculis libero in vestibulum. Quisque
+        eget purus neque. Integer pretium neque sit amet cursus pharetra.
+        Quisque felis ex, euismod eu hendrerit quis, aliquam at sapien. Aliquam
+        erat volutpat. Nullam eget nunc vitae augue facilisis tincidunt quis
+        eget odio. Etiam eu congue dolor. Curabitur eget iaculis justo. Etiam
+        lobortis lacus vel libero semper dapibus. Aliquam erat volutpat. Vivamus
+        laoreet semper dui sit amet facilisis. Nam maximus rutrum vestibulum.
+        Vivamus ultricies interdum egestas. Aenean finibus eros id nisl dapibus,
+        vel faucibus mi vestibulum. Aenean sit amet magna tempus, sagittis
+        mauris eget, sollicitudin enim. Vivamus semper, lorem quis finibus
+        malesuada, orci quam placerat magna, vel scelerisque felis ligula eget
+        sapien. Nunc ullamcorper erat eu rutrum condimentum. Curabitur nec velit
+        in leo auctor porta sit amet vitae felis. Praesent non ipsum eu erat
+        feugiat gravida in eu magna.
+      </p>
+
+      <h3 class="subtitle__h3">Parrafo justificado</h3>
+      <p class="parraf" align="justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        luctus faucibus risus, at ultrices velit mollis eget. Suspendisse
+        condimentum eros et ante sodales, sed porta felis consectetur. Donec
+        tempus turpis nulla, sit amet porta sapien efficitur ut. In sed elit
+        quam. Etiam quis diam est. Nulla a diam laoreet, feugiat velit sed,
+        finibus mauris. Curabitur risus elit, pretium porttitor ornare non,
+        elementum eget diam. Nam non rhoncus augue, quis elementum ipsum. Cras
+        rutrum neque non lacinia egestas. Cras urna diam, rhoncus vel elementum
+        a, porttitor in augue. Duis dapibus diam id porttitor malesuada. Aenean
+        non tristique erat. Aliquam malesuada libero sapien, sed pretium diam
+        elementum ut. Morbi egestas hendrerit lorem id mollis. In efficitur
+        libero nec ligula lacinia aliquet. Ut at tincidunt nibh. Donec maximus
+        hendrerit leo, sit amet malesuada nisi. Cras lacinia justo vitae
+        tincidunt molestie. Mauris mauris tellus, ultrices at sodales non,
+        ornare nec risus. Quisque pretium iaculis libero in vestibulum. Quisque
+        eget purus neque. Integer pretium neque sit amet cursus pharetra.
+        Quisque felis ex, euismod eu hendrerit quis, aliquam at sapien. Aliquam
+        erat volutpat. Nullam eget nunc vitae augue facilisis tincidunt quis
+        eget odio. Etiam eu congue dolor. Curabitur eget iaculis justo. Etiam
+        lobortis lacus vel libero semper dapibus. Aliquam erat volutpat. Vivamus
+        laoreet semper dui sit amet facilisis. Nam maximus rutrum vestibulum.
+        Vivamus ultricies interdum egestas. Aenean finibus eros id nisl dapibus,
+        vel faucibus mi vestibulum. Aenean sit amet magna tempus, sagittis
+        mauris eget, sollicitudin enim. Vivamus semper, lorem quis finibus
+        malesuada, orci quam placerat magna, vel scelerisque felis ligula eget
+        sapien. Nunc ullamcorper erat eu rutrum condimentum. Curabitur nec velit
+        in leo auctor porta sit amet vitae felis. Praesent non ipsum eu erat
+        feugiat gravida in eu magna.
+      </p>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__section">
+        <h3 class="footer__h3">Contacto</h3>
+        <ul class="footer__items">
+          <a
+            class="footer__item"
+            href="mailto:johannbb0508@gmail.com"
+            target="_blank"
+            >johannbb0508@gmail.com</a
+          >
+          <a
+            class="footer__item"
+            href="https://wa.me/+573118729260"
+            target="_blank"
+            >+57 3118729260</a
+          >
+        </ul>
+      </section>
+      <section class="footer__section">
+        <h3 class="footer__h3">Redes Sociales</h3>
+        <ul class="footer__items">
+          <a
+            class="footer__item"
+            href="https://www.instagram.com/johannbbp?igsh=MWM5MnFsNnd1aHhkbQ=="
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            class="footer__item"
+            href="https://www.facebook.com/share/p9DQCEv38SSbZeAX/?mibextid=qi2Omg"
+            target="_blank"
+            >Facebook</a
+          >
+          <a
+            class="footer__item"
+            href="https://github.com/JohannBonillaBolivar"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            class="footer__item"
+            href="https://co.linkedin.com/in/johann-bonilla-bolivar"
+            target="_blank"
+            >Linkedin</a
+          >
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

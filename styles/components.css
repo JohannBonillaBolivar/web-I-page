@@ -1,0 +1,183 @@
+/* TABLES */
+
+.table {
+	border-spacing: 0;
+	border-radius: 8px;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1000px;
+	table-layout: fixed;
+}
+
+.table__head {
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #c0c0c0;
+	color: #202020;
+}
+
+.table__body {
+	background-color: #f0f0f0;
+	color: #303030;
+	text-wrap: pretty;
+}
+
+.table__column {
+	font-size: .8rem;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.table__column:first-child {
+	/* width: 90px; */
+	word-wrap: normal;
+	border-right: 2px solid #ffffff;
+}
+
+.table__body .table__column:first-child {
+	font-weight: 500;
+}
+.table__body .table__column {
+	font-size: .8rem;
+}
+
+/* H1, H2, H3, H4, P */
+.subtitle {
+	color: #303030;
+	text-align: start;
+	width: 100%;
+	max-width: 1000px;
+	margin: 25px 0 10px 0;
+}
+.subtitle__h3 {
+	color: #303030;
+	text-align: start;
+	width: 100%;
+	max-width: 1000px;
+	margin: 15px 0 0 0;
+}
+
+.parraf {
+	color: #404040;
+	font-size: .9rem;
+	max-width: 1000px;
+	text-wrap: pretty;
+}
+
+/* FORMULARIO */
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+	max-width: 1000px;
+	background-color: #303030;
+	padding: 20px;
+	border-radius: 7px;
+}
+
+.form__label {
+	display: flex;
+	flex-direction: column;
+	color: #f0f0f0;
+	font-weight: 700;
+}
+
+.form__input {
+	border: none;
+	border-radius: 3px;
+	color: #303030;
+	padding: 5px 7px;
+	outline: none;
+	font-size: .9rem;
+}
+
+.form__area {
+	border: none;
+	border-radius: 3px;
+	color: #303030;
+	padding: 5px 7px;
+	font-size: .9rem;
+	outline: none;
+	resize: none;
+	field-sizing: content;
+	min-height: 4pc;
+}
+
+.form__btn {
+	border: none;
+	border-radius: 4px;
+	color: #303030;
+	font-weight: 600;
+	font-size: 1.1rem;
+	padding: 7px 20px;
+	background-color: #ff477f;
+	margin-top: 10px;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+/* PICTURE */
+.picture {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+.img--square {
+	aspect-ratio: 1 / 1;
+}
+.img--rectangle {
+	aspect-ratio: 16 / 9;
+}
+.img--large {
+	aspect-ratio: 21 / 9;
+	max-width: 1000px;
+}
+
+/* BUTTONS */
+.btn {
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	background-color: #ff477f;
+	color: #303030;
+	font-weight: 700;
+	cursor: pointer;
+	font-size: 1.1rem;
+}
+
+.btn--rounded {
+	border-radius: 50%;
+}
+
+/* DEGRADADES */
+.section {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.deg {
+	width: 100%;
+	height: 60px;
+}
+
+.deg--red-yellow {
+	background: linear-gradient(to right, #ff7f7f, #ffff47);
+}
+.deg--green-blue {
+	background: radial-gradient(#47ff7f, #477fff);
+}
+.deg--blue-red {
+	background: conic-gradient(#477fff, #ff477f, #ffff47, #47ff7f);
+}

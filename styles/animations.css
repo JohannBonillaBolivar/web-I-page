@@ -1,0 +1,35 @@
+@keyframes show-a {
+	0% {
+		transform: translateY(-100px) scale(0);
+	}
+	100% {
+		transform: translateY(0) scale(1);
+	}
+}
+
+@keyframes hide-a {
+	0% {
+		transform: translateY(0) scale(1);
+	}
+	100% {
+		transform: translateY(-100px) scale(0);
+	}
+}
+
+@keyframes hover-link {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes no-hover-link {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0;
+	}
+}
